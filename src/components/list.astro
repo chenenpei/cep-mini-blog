@@ -16,6 +16,9 @@ const afterCursor = posts[0]?.id
   <slot name="header">
     <Header channel={channel} />
   </slot>
+  <form class="search-form mobile" action="/search/result" method="get">
+    <input type="text" name="q" placeholder="Search" />
+  </form>
   <div class="items">
     {posts.map((post) => <Item post={post} />)}
   </div>
