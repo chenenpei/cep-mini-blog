@@ -96,7 +96,7 @@ html {
   display: none;
   background: rgba(255, 255, 255, 0.75);
   position: sticky;
-  top: 60px;
+  top: 54px;
   border-radius: var(--box-border-radius);
 
   > input {
@@ -118,7 +118,7 @@ html {
 
 .copyright-wrap {
   position: sticky;
-  top: 120px;
+  top: 110px;
   color: var(--secondary-color);
   line-height: 1.5;
   font-size: 14px;
